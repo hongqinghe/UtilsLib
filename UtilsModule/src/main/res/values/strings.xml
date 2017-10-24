@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">UtilsModule</string>
+    <string name="nian">yyyy年MM月dd日  HH时mm分</string>
+    <string name="nian_1">yyyy年MM月dd日 HH:mm</string>
+    <string name="jiexiriqichucuo"> 解析日期出错,输入格式不正确:</string>
+    <string name="riqibuyunxuweikong">日期不允许为空,请输入正确的日期!</string>
+    <string name="jiexiriqichuxiancuowu">解析日期出现错误,错误的输入格式:</string>
+    <string name="xingqiyi">星期一</string>
+    <string name="xingqier">星期二</string>
+    <string name="xingqisan">星期三</string>
+    <string name="xingqisi">星期四</string>
+    <string name="xingqiwu">星期五</string>
+    <string name="xingqiliu">星期六</string>
+    <string name="xingqiri">星期日</string>
+    <string name="yue">MM月dd日 HH:mm</string>
 </resources>
