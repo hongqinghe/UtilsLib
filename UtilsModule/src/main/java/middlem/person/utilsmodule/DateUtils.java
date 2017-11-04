@@ -40,19 +40,15 @@ public final class DateUtils {
 	public static final String FORMAT_SIMPLE4 = "yyyyMMdd";
 
 	/**
+	 * 年月日时分秒毫秒
+	 */
+	public static final String FORMAT_SIMPLE5 = "yyyyMMddHHmmssSSS";
+
+	/**
 	 * 简单的日期格式化.
 	 */
 	public static final String FORMAT_SIMPLE6 = "yyyy.MM.dd HH:mm";
-
 	public static final String FORMAT_SIMPLE8 = "yyyy.MM.dd";
-	/**
-	 * 简单的日期格式化.
-	 */
-	public static final String FORMAT_SIMPLE13 = "yyyy-MM-dd";
-	/**
-	 * 简单的日期格式化.
-	 */
-	public static final String FORMAT_SIMPLE14 = "yyyy-MM-ddHH:mm";
 	public static final String FORMAT_SIMPLE9 = "yyyy年MM月";
 	/**
 	 * 简单的日期格式化.
@@ -66,8 +62,16 @@ public final class DateUtils {
 	 * 简单的日期格式化.
 	 */
 	public static final String FORMAT_SIMPLE12 = "M.d";
+	/**
+	 * 简单的日期格式化.
+	 */
+	public static final String FORMAT_SIMPLE13 = "yyyy-MM-dd";
 
 
+	/**
+	 * 简单的日期格式化.
+	 */
+	public static final String FORMAT_SIMPLE14 = "yyyy-MM-ddHH:mm";
 	/**
 	 * 三个月为90天(包括90天).
 	 */
@@ -80,10 +84,6 @@ public final class DateUtils {
 	 * 年-月-日 时:分
 	 */
 	public static final String FORMAT_SHORT = "yyyy-MM-dd HH:mm";
-	/**
-	 * 年月日时分秒毫秒
-	 */
-	public static final String FORMAT_SIMPLE5 = "yyyyMMddHHmmssSSS";
 	/**
 	 * 年-月-日
 	 */
