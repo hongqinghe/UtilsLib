@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">UtilsModule</string>
+    <string name="format">FormatActivity</string>
+    <string name="format1">请输入format的Pattern</string>
+    <string name="format2">format2</string>
+    <string name="format3">format3</string>
+    <string name="format4">format4</string>
     <string name="nian">yyyy年MM月dd日  HH时mm分</string>
     <string name="nian_1">yyyy年MM月dd日 HH:mm</string>
     <string name="jiexiriqichucuo"> 解析日期出错,输入格式不正确:</string>

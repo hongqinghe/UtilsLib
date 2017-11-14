@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="middlem.person.utilslib.SimpleDateFormatActivity">
+
+    <TextView
+        style="@style/Widget.AppCompat.Button.button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/format1"
+
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="format2"
+        android:text="@string/format2"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请点击输入的格式"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="134dp" />
+</android.support.constraint.ConstraintLayout>
