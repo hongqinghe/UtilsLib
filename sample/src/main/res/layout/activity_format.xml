@@ -1,36 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="middlem.person.utilslib.SimpleDateFormatActivity">
-
-    <TextView
-        style="@style/Widget.AppCompat.Button.button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/format1"
-
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="4dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        style="@style/Widget.AppCompat.Button.button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="format2"
-        android:text="@string/format2"
-        tools:ignore="MissingConstraints,OnClick"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="64dp" />
-
-    <TextView
-        android:id="@+id/content_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="请点击输入的格式"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="134dp" />
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="middlem.person.utilslib.SimpleDateFormatActivity"
+	tools:layout_editor_absoluteY="89dp">
+	
+	
+	<EditText
+		android:id="@+id/format"
+		style="@style/Widget.AppCompat.Button.button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="26dp"
+		android:hint="请输入format字符串"
+		android:visibility="gone"
+		app:layout_constraintHorizontal_bias="0.475"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/pattern"
+		tools:ignore="MissingConstraints" />
+	
+	<EditText
+		android:id="@+id/pattern"
+		style="@style/Widget.AppCompat.Button.button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="212dp"
+		android:layout_marginTop="16dp"
+		android:hint="@string/format1"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="MissingConstraints" />
+	
+	<Button
+		android:id="@+id/button2"
+		style="@style/Widget.AppCompat.Button.button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="184dp"
+		android:layout_marginTop="36dp"
+		android:onClick="dateFormat"
+		android:text="@string/format2"
+		app:layout_constraintEnd_toStartOf="@+id/button3"
+		app:layout_constraintTop_toBottomOf="@+id/format"
+		tools:ignore="MissingConstraints,OnClick" />
+	
+	<TextView
+		android:id="@+id/content_tv"
+		android:layout_width="157dp"
+		android:layout_height="28dp"
+		android:layout_marginTop="80dp"
+		android:gravity="center"
+		android:text="@string/format4"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/button2"
+		tools:ignore="MissingConstraints" />
+	
+	<Button
+		android:id="@+id/button3"
+		style="@style/Widget.AppCompat.Button.button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="84dp"
+		android:layout_marginTop="44dp"
+		android:onClick="dateTimeFormat"
+		android:text="@string/format3"
+		app:layout_constraintStart_toStartOf="@+id/format"
+		app:layout_constraintTop_toBottomOf="@+id/format"
+		tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
