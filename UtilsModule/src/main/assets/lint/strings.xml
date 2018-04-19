@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    
+    <string name="string_format">%s年</string>
+    <string name="string_no_format">%年,%s</string>
+    <string formatted="true" name="price_cost">单价：%s元/%s</string>
+    <string name="today_is">今天是%s年%s月%s日 %s</string>
+    <string name="purchase_price_plan_name_now">当前使用%s方案：%s</string>
+    <string name="supply_batch_setup_hint">是否对选中的%d种原料进行“设置平台可销售数量”操作</string>
+    <string name="base_null_list_tips">还未添加过任何采购模板\r\n请先到 首页-采购模板设置页面 添加一个吧</string>
+</resources>
